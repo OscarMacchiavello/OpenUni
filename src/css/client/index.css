@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root{
+    --backgroundNavbar : rgba(0, 0, 0, 0.753);
+    --colorLogo: rgb(218, 218, 218);
+    --letraBotones: rgb(44, 43, 43);
+}
+body{
+    margin: 0;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    box-sizing: border-box;
+
+    font-family: "Rubik", sans-serif;
+}
+
+.headerIndexClient{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: var(--backgroundNavbar);
+    padding: 1rem;
+    margin: .1rem;
+    border-radius: .5rem .5rem 0 0;
+}
+
+.headerIndexClient__logo{
+    color: var(--colorLogo);
+    font-size: 1.6rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.headerIndexClient__navbar{
+    list-style: none;
+
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+.headerIndexClient__navbar-link{
+    color: whitesmoke;
+    text-decoration: none;
+
+}
+
+/* SECCION DE ELEMENTOS: MATERIAL Y PROFESORES */
+.mainIndexClient{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.mainIndexClient__seccion{
+    border: solid 1px rgb(235, 235, 235);
+    border-radius: 1rem;
+    width: 25rem;
+    height: 18rem;
+    padding: 3rem 2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.mainIndexClient__subtitulo{
+
+}
+
+.mainIndexClient__descripcion{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+.mainIndexClient__parrafo{
+    margin: .1rem;
+    color: rgb(175, 166, 166);
+}
+
+.mainIndexClient__botonSiguienteSeccion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 4rem;
+    padding: .3rem .6rem;
+    border-radius: .3rem;
+    background-color: rgb(236, 236, 236);
+
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--letraBotones);
+}
+
+.mainIndexClient__botonSiguienteSeccion-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
