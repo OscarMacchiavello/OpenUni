@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root{
+    --backgroundNavbar : rgba(0, 0, 0, 0.753);
+    --colorLogo: rgb(218, 218, 218);
+    --letraBotones: rgb(44, 43, 43);
+    --bordeCuadros: rgb(235, 235, 235);
+}
+

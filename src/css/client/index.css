@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import 'variables.css';
 
-:root{
-    --backgroundNavbar : rgba(0, 0, 0, 0.753);
-    --colorLogo: rgb(218, 218, 218);
-    --letraBotones: rgb(44, 43, 43);
-}
 body{
     margin: 0;
     height: 100vh;
@@ -60,7 +56,7 @@ body{
     gap: 2rem;
 }
 .mainIndexClient__seccion{
-    border: solid 1px rgb(235, 235, 235);
+    border: solid 1px var(--bordeCuadros);
     border-radius: 1rem;
     width: 25rem;
     height: 18rem;

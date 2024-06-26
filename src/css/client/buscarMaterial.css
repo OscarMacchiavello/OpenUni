@@ -1,0 +1,122 @@
+@import 'variables.css';
+
+
+.headerIndexClient{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: var(--backgroundNavbar);
+    padding: 1rem;
+    margin: .1rem;
+    border-radius: .5rem .5rem 0 0;
+}
+
+.headerIndexClient__logo{
+    color: var(--colorLogo);
+    font-size: 1.6rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.headerIndexClient__navbar{
+    list-style: none;
+
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+.headerIndexClient__navbar-link{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+
+
+/* MAIN DE BUSCARMATERIAL */
+
+.mainBuscarMaterial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+
+    margin: auto;
+}
+
+/*? SECCION 1 */
+.mainBuscarMaterial__seccion1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 75%;
+}
+.mainBuscarMaterial__titulo{
+    font-family: "Rubik", sans-serif;
+}
+.mainBuscarMaterial__botonesDescargar{
+    display: flex;
+    gap: .5rem;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    & .mainBuscarMaterial__botonDescargar-item{
+        padding: .5rem;
+        border: solid 1px var(--bordeCuadros);
+        border-radius: .3rem;
+
+        cursor: pointer;
+        user-select: none;
+    }
+}
+
+/*? SECCION 2 */
+
+.mainBuscarMaterial__seccion2{
+    display: flex;
+    flex-direction: column;
+
+    width: 75%;
+}
+.mainBuscarMaterial__subtitulo{
+    font-weight: bold;
+    font-family: "Rubik", sans-serif;
+}
+
+.mainBuscarMaterial__buscador{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.mainBuscarMaterial__buscador-item{
+    width: 100%;
+}
+
+.mainBuscarMaterial__label{
+    font-weight: 200;
+}
+.mainBuscarMaterial__select{
+    width: 90%;
+    height: 2rem;
+    outline: none;
+    border: solid 1px var(--bordeCuadros);
+    border-radius: .3rem;
+}
+
+.mainBuscarMaterial__botonBuscar{
+    margin-top: 3rem;
+    margin-left: auto;
+    cursor: pointer;
+    height: 2rem;
+    padding: .3rem 1rem;
+    background-color: var(--backgroundNavbar);
+    color: var(--bordeCuadros);
+
+    border-radius: .5rem;
+    display: flex;
+    align-items: center;
+}
