@@ -1,4 +1,5 @@
-@import 'variables.css';
+@import '/public/build/css/variables.min.css';
+
 
 
 .headerIndexClient{

@@ -1,0 +1,12 @@
+{
+    "name": "cursoir/openuni",
+    "description": "Proyecto Final Curso IR",
+    "autoload": {
+        "psr-4": {
+            "Controllers\\": "./controllers",
+            "Models\\": "./models",
+            "MVC\\": "./"
+        }
+    },
+    "require": {}
+}
